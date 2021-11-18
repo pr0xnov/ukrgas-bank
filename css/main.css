@@ -235,7 +235,7 @@ li {
 footer {
   position: relative;
   padding-top: 108px;
-  padding-bottom: 225px;
+  padding-bottom: 125px;
   background: var(--bg-green-color);
 }
 .footer-car {
@@ -343,7 +343,7 @@ footer {
 .contacts-form__submit-btn {
   position: absolute;
   right: 30%;
-  bottom: -170px;
+  bottom: -10%;
   padding: 0 48px;
   text-transform: uppercase;
   font-size: 25px;
@@ -363,8 +363,8 @@ footer {
 }
 .liscence {
   position: absolute;
-  bottom: 7%;
-  right: 12%;
+  bottom: 14%;
+  right: 11%;
   width: 210px;
 }
 .politics a {
