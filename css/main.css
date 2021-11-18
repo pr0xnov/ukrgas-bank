@@ -57,7 +57,7 @@ li {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 20px;
-  line-height: 1.216;
+  line-height: 1.8;
   color: var(--text-white-color);
 }
 .header-hero {
@@ -286,7 +286,7 @@ footer {
   position: absolute;
   left: 35px;
   right: 0;
-  bottom: -105px;
+  bottom: 14%;
   width: 150px;
   text-align: left;
   padding-left: 0;
@@ -298,23 +298,19 @@ footer {
 .contact-form__error {
   display: none;
   position: absolute;
-  top: 110%;
   left: 20px;
   max-width: 100%;
-  margin-bottom: 0;
+  margin-top: 5px;
   font-size: 15px;
   line-height: 1em;
   color: red;
   font-weight: normal;
 }
-.error-mail {
-  top: 105%;
-}
 .contact-form__mandatory {
   position: absolute;
   left: 35px;
   opacity: 0.8;
-  margin-top: 20px;
+  margin-top: 25px;
   margin-bottom: 0;
   height: 40px;
   font-size: 17px;
@@ -323,7 +319,7 @@ footer {
 .contact-form__check-box {
   position: absolute;
   right: 1%;
-  margin-top: 20px;
+  margin-top: 25px;
   text-align: left;
 }
 .contact-form__check-box input {
