@@ -7,15 +7,19 @@
   --text-green-color: #4a8942;
   --text-dark-color: #0b0b0b;
 }
-.container {
-  margin-left: 150px;
-  margin-right: 150px;
+* {
+  margin: 0;
+  padding: 0;
 }
 body {
   font-family: 'Circe', Arial, sans-serif, serif;
 }
 li {
   list-style: none;
+}
+.container {
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 /* Header start*/
@@ -265,11 +269,13 @@ footer {
   border: none;
 }
 .contact-form__request::placeholder {
+  width: 149px;
+  height: 72px;
   font-size: 27px;
   line-height: 60px;
   color: #4e5576;
+  font-weight: 300;
   opacity: 0.7;
-  font-weight: 200;
 }
 .contact-form__request {
   margin-left: 30px;
@@ -280,7 +286,7 @@ footer {
   position: absolute;
   left: 35px;
   right: 0;
-  bottom: -95px;
+  bottom: -105px;
   width: 150px;
   text-align: left;
   padding-left: 0;
@@ -307,6 +313,7 @@ footer {
 .contact-form__mandatory {
   position: absolute;
   left: 35px;
+  opacity: 0.8;
   margin-top: 20px;
   margin-bottom: 0;
   height: 40px;
@@ -315,7 +322,7 @@ footer {
 }
 .contact-form__check-box {
   position: absolute;
-  right: 100px;
+  right: 1%;
   margin-top: 20px;
   text-align: left;
 }
@@ -328,19 +335,14 @@ footer {
   border: 1px solid #595959;
 }
 .contact-form__data-title {
-  margin-top: 20px;
   font-size: 21px;
   color: var(--text-white-color);
   opacity: 0.8;
   font-weight: 300;
 }
-.contacts-form__submit-wrap {
-  position: absolute;
-  bottom: 0;
-}
 .contacts-form__submit-btn {
   position: absolute;
-  left: 450px;
+  right: 30%;
   bottom: -170px;
   padding: 0 48px;
   text-transform: uppercase;
@@ -362,7 +364,8 @@ footer {
 .liscence {
   position: absolute;
   bottom: 7%;
-  right: 10%;
+  right: 12%;
+  width: 210px;
 }
 .politics a {
   font-size: 17px;
@@ -370,12 +373,11 @@ footer {
   text-decoration: none;
 }
 .liscence-text {
-  width: 165px;
-  height: 25px;
+  margin-top: 10px;
   font-size: 8px;
-  line-height: 18px;
   color: #c6c6c6;
   font-weight: 300;
+  text-align: right;
 }
 .contact-form__error {
   margin-left: 15px;
