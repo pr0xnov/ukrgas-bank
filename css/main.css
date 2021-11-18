@@ -1,0 +1,383 @@
+:root {
+  --bg-green-color: #70ab3c;
+  --bg-white-color: #fff;
+  --bg-lightgreen-color: #f9f9f9;
+
+  --text-white-color: #fff;
+  --text-green-color: #4a8942;
+  --text-dark-color: #0b0b0b;
+}
+.container {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+body {
+  font-family: 'Circe', Arial, sans-serif, serif;
+}
+li {
+  list-style: none;
+}
+
+/* Header start*/
+
+.header {
+  background: var(--bg-green-color);
+  padding-top: 65px;
+  padding-bottom: 50px;
+  border-bottom: 5px solid #4a8942;
+}
+.header-nav {
+  padding-left: 140px;
+  padding-right: 140px;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+.nav-list__item {
+  margin-left: 40px;
+  text-decoration: none;
+  background-image: linear-gradient(#fff, #fff);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s ease-in-out;
+}
+.nav-list__item:hover {
+  background-size: 100% 2px;
+}
+.nav-list__item:nth-child(2) {
+  margin-left: 125px;
+}
+.nav-list__link {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 1.216;
+  color: var(--text-white-color);
+}
+.header-hero {
+  display: flex;
+  justify-content: space-between;
+  color: var(--text-white-color);
+}
+.header-hero__about {
+  margin-top: 200px;
+}
+.header-hero__title {
+  text-transform: uppercase;
+  margin: 0 30px 70px 0;
+  font-size: 117px;
+  font-weight: 300;
+}
+.header-hero__text {
+  font-size: 25px;
+  width: 760px;
+  line-height: 1.64;
+}
+.hero-images {
+  margin-top: 100px;
+  position: relative;
+}
+.hero-statistics {
+  position: absolute;
+  bottom: -50px;
+  left: 235px;
+}
+/* Header end*/
+
+/* Benefits start*/
+.benefits {
+  padding-top: 108px;
+  padding-bottom: 108px;
+}
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 60px;
+  color: var(--text-green-color);
+}
+.benefits-list {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 100px;
+}
+.benefits-item {
+  margin-right: 50px;
+}
+.benefits-item:last-child {
+  margin-right: 0;
+}
+.benefits-item:nth-child(1n) {
+  width: 250px;
+}
+.benefits-item:nth-child(even) {
+  margin-top: 80px;
+}
+.benefits-text {
+  margin-top: 30px;
+  font-size: 25px;
+}
+/* Benefits end */
+
+/* Financing start */
+.financing {
+  padding-top: 108px;
+  padding-bottom: 108px;
+  background: var(--bg-lightgreen-color);
+}
+.financing-list {
+  display: flex;
+  justify-content: space-around;
+}
+.financing-subtitle {
+  text-align: center;
+  font-size: 27px;
+  margin-top: 25px;
+  color: var(--text-dark-color);
+}
+.financing-about {
+  margin-top: 80px;
+  width: 520px;
+}
+.financing-about__title {
+  text-transform: uppercase;
+  font-size: 38px;
+  line-height: 60px;
+}
+.financing-about__line {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  width: 215px;
+  height: 4px;
+  background: var(--bg-green-color);
+}
+.financing-about__text {
+  font-size: 22px;
+  line-height: 41px;
+}
+.financing-about__list {
+  display: flex;
+  align-items: center;
+  margin-left: 90px;
+}
+.financing-about__item p {
+  margin-top: 30px;
+  color: var(--text-green-color);
+  font-size: 19px;
+  line-height: 31px;
+}
+.financing-about__item {
+  justify-content: center;
+  text-align: center;
+  width: 365px;
+}
+/* Financing end */
+
+/* Billing start */
+.billing {
+  padding-top: 108px;
+  padding-bottom: 108px;
+}
+.subtitle {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 42px;
+  color: var(--text-green-color);
+}
+.billing-subtitle__text {
+  text-align: center;
+  font-size: 27px;
+  margin-top: 25px;
+  color: var(--text-dark-color);
+}
+.billing-list {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 100px;
+}
+.billing-item {
+  width: 365px;
+  font-size: 25px;
+  line-height: 31px;
+  text-align: center;
+}
+.billing-text {
+  margin-top: 40px;
+}
+
+/* Billing end */
+
+/* Cooperation start */
+.cooperation {
+  padding-top: 108px;
+  padding-bottom: 108px;
+  background: var(--bg-lightgreen-color);
+}
+.cooperation-text {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  margin-top: 75px;
+  font-size: 28px;
+  line-height: 44px;
+  color: var(--text-dark-color);
+}
+/* Cooperation end */
+
+/* Form start */
+footer {
+  position: relative;
+  padding-top: 108px;
+  padding-bottom: 225px;
+  background: var(--bg-green-color);
+}
+.footer-car {
+  margin-top: 120px;
+}
+.footer-container {
+  margin-left: 100px;
+}
+.flex-container {
+  display: flex;
+}
+.title-form {
+  color: var(--text-white-color);
+  font-size: 35px;
+  line-height: 60px;
+  font-size: 900;
+  text-transform: uppercase;
+}
+.contact-form {
+  position: relative;
+  text-align: center;
+}
+.contact-form__request {
+  width: 440px;
+  height: 75px;
+
+  font-size: 27px;
+  line-height: 60px;
+  padding: 25px 35px;
+  border-radius: 5px;
+  border: none;
+}
+.contact-form__request::placeholder {
+  font-size: 27px;
+  line-height: 60px;
+  color: #4e5576;
+  opacity: 0.7;
+  font-weight: 200;
+}
+.contact-form__request {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.contacts-form__status-message {
+  display: none;
+  position: absolute;
+  left: 35px;
+  right: 0;
+  bottom: -95px;
+  width: 150px;
+  text-align: left;
+  padding-left: 0;
+  margin-bottom: 0;
+  font-size: 15px;
+  line-height: 1em;
+  color: red;
+}
+.contact-form__error {
+  display: none;
+  position: absolute;
+  top: 110%;
+  left: 20px;
+  max-width: 100%;
+  margin-bottom: 0;
+  font-size: 15px;
+  line-height: 1em;
+  color: red;
+  font-weight: normal;
+}
+.error-mail {
+  top: 105%;
+}
+.contact-form__mandatory {
+  position: absolute;
+  left: 35px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  height: 40px;
+  font-size: 17px;
+  color: white;
+}
+.contact-form__check-box {
+  position: absolute;
+  right: 100px;
+  margin-top: 20px;
+  text-align: left;
+}
+.contact-form__check-box input {
+  margin-right: 5px;
+  width: 22px;
+  height: 22px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  border: 1px solid #595959;
+}
+.contact-form__data-title {
+  margin-top: 20px;
+  font-size: 21px;
+  color: var(--text-white-color);
+  opacity: 0.8;
+  font-weight: 300;
+}
+.contacts-form__submit-wrap {
+  position: absolute;
+  bottom: 0;
+}
+.contacts-form__submit-btn {
+  position: absolute;
+  left: 450px;
+  bottom: -170px;
+  padding: 0 48px;
+  text-transform: uppercase;
+  font-size: 25px;
+  line-height: 60px;
+  letter-spacing: 2px;
+  border-radius: 7px;
+  border: none;
+  font-weight: 600;
+  color: var(--text-green-color);
+}
+.contacts-form__submit-btn:hover,
+.contacts-form__submit-btn:focus {
+  color: var(--bg-white-color);
+  border: 3px solid var(--bg-white-color);
+  background: transparent;
+  transition: 0.3s ease-in-out;
+}
+.liscence {
+  position: absolute;
+  bottom: 7%;
+  right: 10%;
+}
+.politics a {
+  font-size: 17px;
+  color: var(--text-white-color);
+  text-decoration: none;
+}
+.liscence-text {
+  width: 165px;
+  height: 25px;
+  font-size: 8px;
+  line-height: 18px;
+  color: #c6c6c6;
+  font-weight: 300;
+}
+.contact-form__error {
+  margin-left: 15px;
+}
+/* Form end */ ;
