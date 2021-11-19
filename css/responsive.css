@@ -410,6 +410,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     bottom: 0;
+    text-align: center;
   }
   .liscence-text {
     text-align: center;
@@ -526,5 +527,14 @@
   }
   .billing-text {
     margin-top: 0;
+  }
+  .contact-form__check-box {
+    width: 260px;
+  }
+  .contact-form__data-title {
+    font-size: 12px;
+  }
+  .politics a {
+    font-size: 15px;
   }
 }
