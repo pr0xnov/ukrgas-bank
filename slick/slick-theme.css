@@ -75,7 +75,6 @@
   transform: rotate(-90deg);
 }
 [dir='rtl'] .slick-prev {
-  right: -25px;
   left: auto;
 }
 .slick-prev:before {
@@ -91,7 +90,6 @@
 }
 [dir='rtl'] .slick-next {
   right: auto;
-  left: -25px;
 }
 .slick-next:before {
   content: '⌃';

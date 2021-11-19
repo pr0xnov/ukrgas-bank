@@ -1,0 +1,339 @@
+@media screen and (max-width: 1850px) {
+  .nav-list__link {
+    font-size: 18px;
+  }
+  .header-hero__title {
+    font-size: 90px;
+  }
+  .liscence {
+    right: 8%;
+  }
+}
+@media screen and (max-width: 1800px) {
+  .liscence {
+    right: 5%;
+  }
+}
+@media screen and (max-width: 1765px) {
+  .header-nav {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .container {
+    margin-right: 80px;
+    margin-left: 80px;
+  }
+  .header-hero__text {
+    width: auto;
+  }
+  .flex-container {
+    justify-content: space-around;
+  }
+  .contact-form__check-box {
+    font-size: 18px;
+    right: 0;
+    bottom: 10%;
+    left: 5%;
+  }
+  .contact-form__data-title {
+    font-size: 18px;
+  }
+  .liscence {
+    right: 7%;
+    bottom: 33%;
+  }
+  .contact-form__request {
+    width: 300px;
+  }
+  .contacts-form__status-message {
+    bottom: -30px;
+  }
+}
+@media screen and (max-width: 1650px) {
+  .nav-list {
+    justify-content: space-around;
+  }
+  .nav-list__item {
+    margin-left: 30px;
+  }
+  .nav-list__item:nth-child(2) {
+    margin-left: 40px;
+  }
+  .nav-list__link {
+    font-size: 17px;
+  }
+  .header-hero__title {
+    font-size: 70px;
+  }
+  .title {
+    font-size: 50px;
+  }
+  .subtitle {
+    font-size: 36px;
+  }
+  footer {
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+  .flex-container {
+    height: 425px;
+  }
+  .footer-car {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 1485px) {
+  .header-nav {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media screen and (max-width: 1380px) {
+  .header {
+    padding-top: 30px;
+  }
+  .nav-list__link {
+    font-size: 15px;
+  }
+  .nav-list__item {
+    margin-left: 15px;
+  }
+  .header-hero__about {
+    margin-top: 150px;
+    width: 500px;
+  }
+  .header-hero__title {
+    font-size: 50px;
+  }
+  .header-hero__text {
+    font-size: 18px;
+  }
+
+  .hero-img {
+    width: 560px;
+    height: 430px;
+  }
+  .container {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  .title {
+    font-size: 40px;
+  }
+  .subtitle {
+    font-size: 28px;
+  }
+  .benefits-text {
+    font-size: 18px;
+  }
+  .financing-about__list {
+    margin-left: 0;
+  }
+  .financing-list {
+    margin: 50px 20px;
+  }
+  .financing-subtitle {
+    font-size: 25px;
+  }
+  .financing-about__title {
+    font-size: 28px;
+    line-height: 1.6;
+  }
+  .slick-next:before,
+  .slick-prev:before {
+    position: absolute;
+    top: 20px;
+  }
+  .financing-about__text {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  .financing-about__item {
+    width: 300px;
+  }
+  .financing-about__item p {
+    font-size: 16px;
+  }
+  .billing-subtitle__text {
+    font-size: 25px;
+  }
+  .billing-item {
+    font-size: 18px;
+  }
+  .cooperation-text {
+    font-size: 22px;
+    width: 100%;
+  }
+  .title-form {
+    font-size: 28px;
+  }
+  .footer-car {
+    position: absolute;
+    top: 0;
+
+    width: 600px;
+    opacity: 0.6;
+  }
+  .liscence {
+    bottom: 5%;
+    right: 3%;
+  }
+  .contact-form__request {
+    font-size: 20px;
+  }
+  .contact-form__request::placeholder {
+    font-size: 20px;
+  }
+  .contact-form__data-title {
+    font-size: 15px;
+  }
+  .contacts-form__submit-btn {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1279px) {
+  .nav-item__logo img {
+    width: 180px;
+  }
+  .benefits,
+  .financing,
+  .billing,
+  .cooperation {
+    padding: 70px 0;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .nav-list__link {
+    font-size: 13px;
+  }
+  .nav-list {
+    justify-content: space-between;
+  }
+  .header-hero__about {
+    margin-top: 100px;
+  }
+  .hero-img {
+    width: 420px;
+    height: 320px;
+  }
+  .hero-statistics {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .nav-list__item {
+    display: none;
+  }
+  .header-hero__about {
+    position: absolute;
+    z-index: 1;
+  }
+  .hero-images {
+    margin-top: 100px;
+    position: absolute;
+    right: 50px;
+    top: 0;
+    z-index: 0;
+  }
+  .header-hero__about {
+    width: 400px;
+  }
+  .header-hero {
+    height: 400px;
+  }
+  .header-hero__title {
+    font-size: 36px;
+  }
+  .header-hero__text {
+    font-size: 15px;
+  }
+  .title {
+    font-size: 34px;
+  }
+  .subtitle {
+    margin-top: 15px;
+    font-size: 25px;
+  }
+  .benefits-img {
+    width: 70px;
+  }
+  .benefits-text {
+    font-size: 15px;
+  }
+  .financing-subtitle {
+    font-size: 20px;
+  }
+  .financing-about__title {
+    font-size: 22px;
+  }
+  .financing-about__line {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .financing-about__item img {
+    width: 150px;
+  }
+  .financing-about__text {
+    font-size: 15px;
+  }
+  .financing-about__item p {
+    font-size: 15px;
+  }
+  .billing-subtitle__text {
+    font-size: 22px;
+  }
+  .billing-item {
+    margin: 0 10px;
+  }
+  .billing-text {
+    font-size: 15px;
+  }
+  .cooperation-text {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 880px) {
+  .hero-images {
+    opacity: 0.5;
+  }
+  .benefits-list {
+    margin-top: 50px;
+    flex-wrap: wrap;
+  }
+  .benefits-item {
+    margin-bottom: 30px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .benefits-item:nth-child(even) {
+    margin-top: 0;
+  }
+  .financing-list {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .financing-about {
+    margin-top: 0;
+    text-align: center;
+  }
+  .financing-about__line {
+    width: 100%;
+  }
+  .billing-list {
+    margin-top: 50px;
+    flex-wrap: wrap;
+  }
+  .billing-item {
+    margin-bottom: 30px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .flex-container {
+    margin: 0;
+    justify-content: center;
+  }
+  .liscence {
+    bottom: 30%;
+    right: 7%;
+  }
+}

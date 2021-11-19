@@ -70,7 +70,7 @@ li {
 }
 .header-hero__title {
   text-transform: uppercase;
-  margin: 0 30px 70px 0;
+  margin-bottom: 30px;
   font-size: 117px;
   font-weight: 300;
 }
@@ -174,7 +174,7 @@ li {
 }
 .financing-list {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .financing-subtitle {
   text-align: center;
@@ -282,11 +282,9 @@ footer {
 .footer-car {
   margin-top: 120px;
 }
-.footer-container {
-  margin-left: 100px;
-}
 .flex-container {
   display: flex;
+  margin: 0 50px 0 100px;
 }
 .title-form {
   color: var(--text-white-color);
