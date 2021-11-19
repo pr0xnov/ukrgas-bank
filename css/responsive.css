@@ -473,9 +473,6 @@
   }
 }
 @media screen and (max-width: 440px) {
-  .nav-item__logo img {
-    width: 140px;
-  }
   .header-hero__about {
     width: 350px;
   }
