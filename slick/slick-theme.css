@@ -146,6 +146,9 @@
   .slick-prev {
     top: 57%;
   }
+  .financing-about__item {
+    margin-top: 10px;
+  }
 }
 @media screen and (max-width: 440px) {
 }
