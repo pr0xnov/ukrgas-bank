@@ -224,7 +224,7 @@ li {
   background: var(--bg-green-color);
   height: 100%;
   opacity: 0.9;
-  padding: 30px 35px;
+  padding: 60px 35px;
   font-size: 16px;
   line-height: 24px;
   color: #ffffff;
@@ -236,7 +236,7 @@ li {
   -o-transition: 0.4s;
 }
 #financing-2card--hidden {
-  padding: 80px 35px;
+  padding: 100px 35px;
 }
 .financing-about__item:hover #financing-1card--hidden,
 .financing-about__item:hover #financing-2card--hidden {
