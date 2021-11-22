@@ -484,6 +484,10 @@
   .subtitle {
     font-size: 20px;
   }
+
+  .financing-about__title {
+    font-weight: 400;
+  }
   .hero-images {
     opacity: 0.2;
     width: 400px;
@@ -520,7 +524,7 @@
     font-size: 20px;
   }
   .benefits-list {
-    margin-top: 0;
+    margin-top: 20px;
   }
   .benefits-img {
     width: 50px;
