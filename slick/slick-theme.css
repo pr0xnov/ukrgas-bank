@@ -151,6 +151,12 @@
   }
 }
 @media screen and (max-width: 440px) {
+  .slick-next {
+    right: 10px;
+  }
+  .slick-prev {
+    left: 10px;
+  }
 }
 
 /* Dots */

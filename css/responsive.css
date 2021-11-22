@@ -169,8 +169,13 @@
   .financing-about__item p {
     font-size: 16px;
   }
-  .billing-subtitle__text {
-    font-size: 25px;
+  #financing-1card--hidden,
+  #financing-2card--hidden {
+    font-size: 16px;
+    padding: 30px;
+  }
+  #financing-2card--hidden {
+    padding-top: 110px;
   }
   .billing-item {
     font-size: 18px;
@@ -312,6 +317,26 @@
   }
   .financing-about__item p {
     font-size: 15px;
+  }
+  #financing-1card--hidden,
+  #financing-2card--hidden {
+    font-size: 16px;
+    padding: 25px;
+  }
+  #financing-2card--hidden {
+    padding-top: 70px;
+  }
+  #financing-1card--hidden p {
+    margin-bottom: 20px;
+  }
+  #financing-1card--hidden p:last-child {
+    margin-bottom: 0;
+  }
+  #financing-2card--hidden p {
+    margin-bottom: 20px;
+  }
+  #financing-2card--hidden p:last-child {
+    margin-bottom: 0;
   }
   .billing-subtitle__text {
     font-size: 22px;
@@ -511,6 +536,27 @@
   }
   .financing-about__item img {
     width: 100px;
+  }
+  #financing-1card--hidden,
+  #financing-2card--hidden {
+    font-size: 14px;
+    padding: 15px;
+  }
+  #financing-2card--hidden {
+    padding-top: 40px;
+  }
+
+  #financing-1card--hidden p {
+    margin-bottom: 10px;
+  }
+  #financing-1card--hidden p:last-child {
+    margin-bottom: 0;
+  }
+  #financing-2card--hidden p {
+    margin-bottom: 20px;
+  }
+  #financing-2card--hidden p:last-child {
+    margin-bottom: 0;
   }
   .cooperation-text {
     font-size: 15px;
