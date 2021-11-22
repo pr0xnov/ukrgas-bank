@@ -34,6 +34,9 @@ li {
   padding-left: 140px;
   padding-right: 140px;
 }
+.nav-item__logo img {
+  width: 230px;
+}
 .nav-list {
   display: flex;
   align-items: center;
