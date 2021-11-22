@@ -23,16 +23,15 @@
   line-height: 0;
 
   position: absolute;
-  top: 50%;
 
   display: block;
 
   width: 20px;
   height: 20px;
   padding: 0;
-  -webkit-transform: translate(0, -50%);
-  -ms-transform: translate(0, -50%);
-  transform: translate(0, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 
   cursor: pointer;
 
@@ -72,6 +71,7 @@
 
 .slick-prev {
   left: -25px;
+  top: 300px;
   transform: rotate(-90deg);
 }
 [dir='rtl'] .slick-prev {
@@ -86,6 +86,7 @@
 
 .slick-next {
   right: -25px;
+  top: 300px;
   transform: rotate(90deg);
 }
 [dir='rtl'] .slick-next {
@@ -96,6 +97,57 @@
 }
 [dir='rtl'] .slick-next:before {
   content: '⌃';
+}
+@media screen and (max-width: 1440px) {
+  .slick-next {
+    right: 130px;
+    top: 60%;
+  }
+  .slick-prev {
+    left: 130px;
+    top: 62%;
+  }
+}
+@media screen and (max-width: 1279px) {
+  .slick-next {
+    right: 70px;
+    top: 60%;
+  }
+  .slick-prev {
+    left: 70px;
+    top: 63%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .slick-next {
+    right: 20px;
+    top: 61%;
+  }
+  .slick-prev {
+    left: 20px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 70px;
+  }
+  .slick-next {
+    right: 40px;
+  }
+  .slick-prev {
+    left: 40px;
+  }
+}
+@media screen and (max-width: 639px) {
+  .slick-next {
+    top: 56%;
+  }
+  .slick-prev {
+    top: 57%;
+  }
+}
+@media screen and (max-width: 440px) {
 }
 
 /* Dots */

@@ -86,6 +86,25 @@
     padding-left: 40px;
     padding-right: 40px;
   }
+  .financing-list {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .financing-about__list {
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .financing-about {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .financing-about__line {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 1380px) {
   .header {
@@ -128,20 +147,17 @@
   .financing-about__list {
     margin-left: 0;
   }
-  .financing-list {
-    margin: 50px 20px;
-  }
   .financing-subtitle {
     font-size: 25px;
   }
   .financing-about__title {
+    margin-top: 30px;
     font-size: 28px;
     line-height: 1.6;
   }
-  .slick-next:before,
-  .slick-prev:before {
-    position: absolute;
-    top: 20px;
+  .financing-about__line {
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
   .financing-about__text {
     font-size: 18px;
@@ -275,6 +291,9 @@
   .benefits-text {
     font-size: 15px;
   }
+  .financing-about__item {
+    height: 270px;
+  }
   .financing-subtitle {
     font-size: 20px;
   }
@@ -323,17 +342,7 @@
   .benefits-item:nth-child(even) {
     margin-top: 0;
   }
-  .financing-list {
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .financing-about {
-    margin-top: 0;
-    text-align: center;
-  }
-  .financing-about__line {
-    width: 100%;
-  }
+
   .billing-list {
     margin-top: 50px;
     flex-wrap: wrap;
@@ -493,6 +502,15 @@
   }
   .billing-item img {
     width: 50px;
+  }
+  .financing-about {
+    margin-top: 30px;
+  }
+  .financing-about__item {
+    height: 200px;
+  }
+  .financing-about__item img {
+    width: 100px;
   }
   .cooperation-text {
     font-size: 15px;

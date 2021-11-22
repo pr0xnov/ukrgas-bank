@@ -144,8 +144,6 @@ li {
   opacity: 0;
   bottom: 100%;
   white-space: nowrap;
-  -webkit-transition: 0.25s linear opacity;
-  transition: 0.25s linear opacity;
 }
 [title]:hover:after {
   left: 5px;
@@ -174,7 +172,9 @@ li {
 }
 .financing-list {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
 }
 .financing-subtitle {
   text-align: center;
@@ -205,18 +205,65 @@ li {
 .financing-about__list {
   display: flex;
   align-items: center;
-  margin-left: 90px;
+  flex-wrap: wrap;
+  width: 800px;
 }
-.financing-about__item p {
-  margin-top: 30px;
+.financing-card__title {
+  margin-top: 10px;
   color: var(--text-green-color);
   font-size: 19px;
   line-height: 31px;
 }
+#financing-1card--hidden,
+#financing-2card--hidden {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: var(--bg-green-color);
+  height: 100%;
+  opacity: 0.9;
+  padding: 30px 35px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  display: none;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+#financing-2card--hidden {
+  padding: 80px 35px;
+}
+.financing-about__item:hover #financing-1card--hidden,
+.financing-about__item:hover #financing-2card--hidden {
+  display: block;
+}
+#financing-1card--hidden p {
+  margin-bottom: 30px;
+}
+#financing-2card--hidden p {
+  margin-bottom: 50px;
+}
+#financing-1card--hidden p:last-child,
+#financing-2card--hidden p:last-child {
+  margin-bottom: 0;
+}
 .financing-about__item {
+  position: relative;
   justify-content: center;
   text-align: center;
   width: 365px;
+  height: 350px;
+}
+.financing-about__item:first-child {
+  margin-bottom: 20px;
+}
+.financing-about__item:nth-child(1n) {
+  margin-bottom: 20px;
 }
 /* Financing end */
 
