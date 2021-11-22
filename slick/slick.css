@@ -36,8 +36,6 @@
 
 .slick-slider .slick-track,
 .slick-slider .slick-list {
-  display: flex;
-  align-items: center;
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
@@ -77,7 +75,6 @@
 [dir='rtl'] .slick-slide {
   float: right;
 }
-
 .slick-slide.slick-loading img {
   display: none;
 }
