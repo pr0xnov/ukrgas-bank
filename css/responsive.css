@@ -406,7 +406,16 @@
     top: 60%;
     opacity: 0.3;
   }
-
+  .benefits-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .benefits-item:nth-child(even) {
+    width: 250px;
+  }
+  .benefits-item {
+    margin-top: 0;
+  }
   .contact-form {
     display: flex;
     flex-direction: column;
