@@ -23,49 +23,59 @@
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
     <title>Еко-банкінг</title>
   </head>
-  <header class="header">
+  <header class="header" id="header">
     <div class="burger-menu">
       <a href="" class="burger-menu_button">
         <spun class="burger-menu_lines"></spun>
       </a>
-      <nav class="burger-menu_nav">
-        <a href="#section-1" class="burger-menu_link">ПЕРЕВАГИ</a>
-        <a href="#section-2" class="burger-menu_link">ФІНАНСУВАННЯ</a>
-        <a href="#section-3" class="burger-menu_link">ТАРИФІКАЦІЯ</a>
-        <a href="#section-4" class="burger-menu_link">СПІВПРАЦЯ З PFAN</a>
+      <nav id="menu" class="burger-menu_nav">
+        <a href="#benefits" class="burger-menu_link">ПЕРЕВАГИ</a>
+        <a href="#financing" class="burger-menu_link">ФІНАНСУВАННЯ</a>
+        <a href="#billing" class="burger-menu_link">ТАРИФІКАЦІЯ</a>
+        <a href="#cooperation" class="burger-menu_link">СПІВПРАЦЯ З PFAN</a>
         <a href="#section-5" class="burger-menu_link">НОВИНИ</a>
-        <a href="#section-5" class="burger-menu_link">АКРЕДИТАЦІЯ</a>
-        <a href="#section-5" class="burger-menu_link">КОНТАКТИ</a>
+        <a
+          href="https://www.ukrgasbank.com/eco/epc_contr"
+          class="burger-menu_link"
+          target="_blank"
+          >АКРЕДИТАЦІЯ</a
+        >
+        <a href="#contacts" class="burger-menu_link">КОНТАКТИ</a>
       </nav>
       <div class="burger-menu_overlay"></div>
     </div>
-    <nav class="header-nav">
+    <nav id="menu"class="header-nav">
       <ul class="nav-list">
         <li class="nav-item__logo">
-          <a class="nav-list__logo" href="#"
+          <a class="nav-list__logo" href="#header"
             ><img src="./img/logo.svg" alt="logo"
           /></a>
         </li>
         <li class="nav-list__item">
-          <a class="nav-list__link" href="#">Переваги</a>
+          <a class="nav-list__link" href="#benefits">Переваги</a>
         </li>
         <li class="nav-list__item">
-          <a class="nav-list__link" href="#">Фінансування</a>
+          <a class="nav-list__link" href="#financing">Фінансування</a>
         </li>
         <li class="nav-list__item">
-          <a class="nav-list__link" href="#">Тарифікація</a>
+          <a class="nav-list__link" href="#billing">Тарифікація</a>
         </li>
         <li class="nav-list__item">
-          <a class="nav-list__link" href="#">Співпраця з PFAN</a>
+          <a class="nav-list__link" href="#cooperation">Співпраця з PFAN</a>
         </li>
         <li class="nav-list__item">
           <a class="nav-list__link" href="#">Новини</a>
         </li>
         <li class="nav-list__item">
-          <a class="nav-list__link" href="#">Акредитація</a>
+          <a
+            class="nav-list__link"
+            href="https://www.ukrgasbank.com/eco/epc_contr"
+            target="_blank"
+            >Акредитація</a
+          >
         </li>
         <li class="nav-list__item">
-          <a class="nav-list__link" href="#">Контакти</a>
+          <a class="nav-list__link" href="#contacts">Контакти</a>
         </li>
       </ul>
     </nav>
@@ -93,7 +103,7 @@
   <body>
     <section class="benefits">
       <div class="container">
-        <h2 class="benefits-title title">Переваги еко-банку</h2>
+        <h2 id="benefits" class="benefits-title title">Переваги еко-банку</h2>
         <ul class="benefits-list">
           <li class="benefits-item">
             <img src="./img/percent.png" alt="percent" class="benefits-img" />
@@ -136,7 +146,7 @@
         </ul>
       </div>
     </section>
-    <section class="financing">
+    <section id="financing" class="financing">
       <div class="container">
         <h2 class="financing-title title">Основні напрями фінансування</h2>
         <p class="financing-subtitle">
@@ -159,6 +169,7 @@
               </div>
               <ul class="financing-about__list">
                 <li class="financing-about__item">
+                  <a href="https://www.ukrgasbank.com/private/credits/eco_energy/" target="_blank">
                   <img src="./img/solar-panel.png" alt="solar-panel" />
                   <p class="financing-card__title">
                     КРЕДИТИ НА ПРИДБАННЯ <br />СОНЯЧНИХ ЕЛЕКТРОСТАНЦІЙ І
@@ -166,10 +177,12 @@
                   </p>
                 </li>
                 <li class="financing-about__item">
+                  <a href="https://www.ukrgasbank.com/private/credits/autocredit/electro_gibrid_cred" target="_blank">
                   <img src="./img/credit-car.png" alt="credit-car" />
                   <p class="financing-card__title">
                     КРЕДИТИ НА ПРИДБАННЯ ЕЛЕКТРОАВТОМОБІЛІВ
                   </p>
+                </a>
                 </li>
               </ul>
             </div>
@@ -188,11 +201,13 @@
               </div>
               <ul class="financing-about__list">
                 <li class="financing-about__item">
+                  <a href="https://www.ukrgasbank.com/small_bussiness/credit/grow_bussiness_msb/#eco" target="_blank">
                   <img src="./img/energy.png" alt="energy" />
                   <p class="financing-card__title">«ЗЕЛЕНА» ЕНЕРГЕТИКА</p>
                   <p class="financing-card__text">
                     Відновлювальна енергетика, накопичення енергії, біомаса
                   </p>
+                </a>
                 </li>
                 <li class="financing-about__item" id="o1t-element">
                   <img src="./img/production.png" alt="production" />
@@ -201,22 +216,24 @@
                     Енергоефективна модернізація
                   </p>
                   <div id="financing-1card--hidden">
-                    <p>Модернізація систем освітлення для клієнтів МСБ</p>
-                    <p>
+                    <p><a href="https://www.ukrgasbank.com/small_bussiness/credit/sistema_msb/" target="blank"> Модернізація систем освітлення для клієнтів МСБ</a></p>
+                    <p><a href="https://www.ukrgasbank.com/small_bussiness/credit/trzas/"target=_blank>
                       Транспортні засоби<br />
-                      для клієнтів МСБ
+                      для клієнтів МСБ</a>
                     </p>
-                    <p>Обладнання для клієнтів МСБ</p>
-                    <p>Нерухомість для клієнтів МСБ</p>
+                    <p><a href="https://www.ukrgasbank.com/small_bussiness/credit/obl_dlya_biznesu/"target=_blank>Обладнання для клієнтів МСБ</a></p>
+                    <p><a href="https://www.ukrgasbank.com/small_bussiness/credit/kom_neruh/"target=_blank>Нерухомість для клієнтів МСБ</a></p>
                   </div>
                 </li>
                 <li class="financing-about__item">
+                  <a href="https://www.ukrgasbank.com/small_bussiness/credit/osbb/" target="_blank">
                   <img src="./img/house.png" alt="house" />
                   <p class="financing-card__title">ЖКГ ТА КОМУНАЛЬНІ ОБ'ЄКТИ</p>
                   <p class="financing-card__text">
                     Енергоефективна модернізація
                     <br />Енергосервісні контракти
                   </p>
+                </a>
                 </li>
                 <li class="financing-about__item" id="o2t-element">
                   <img src="./img/square.png" alt="square" />
@@ -225,10 +242,11 @@
                     Біопаливо, біогаз, утилізація відходів, системи зрошування
                   </p>
                   <div id="financing-2card--hidden">
-                    <p>Сільськогосподарська <br />техніка для клієнтів МСБ</p>
+                    <p><a href="https://www.ukrgasbank.com/small_bussiness/credit/silgosp_tech/" target="_blank"> Сільськогосподарська <br />техніка для клієнтів МСБ</a></p>
                     <p>
+                      <a href="https://www.ukrgasbank.com/small_bussiness/credit/grow_bussiness_msb/"target=_blank>
                       Розвиток бізнесу<br />
-                      для клієнтів МСБ
+                      для клієнтів МСБ</a>
                     </p>
                   </div>
                 </li>
@@ -250,32 +268,40 @@
               </div>
               <ul class="financing-about__list">
                 <li class="financing-about__item">
+                  <a href="https://www.ukrgasbank.com/corporative/credits/financ_ecoinvest/" target="_blank">
                   <img src="./img/energy.png" alt="energy" />
                   <p class="financing-card__title">«ЗЕЛЕНА» ЕНЕРГЕТИКА</p>
                   <p class="financing-card__text">
                     Відновлювальна енергетика, накопичення енергії, біомаса
                   </p>
+                </a>
                 </li>
                 <li class="financing-about__item">
+                  <a href="https://www.ukrgasbank.com/financ_eco_proektiv/eco-pidpriemstva" target="_blank">
                   <img src="./img/production.png" alt="production" />
                   <p class="financing-card__title">ПІДПРИЄМСТВА</p>
                   <p class="financing-card__text">
                     Енергоефективна модернізація
                   </p>
+                </a>
                 </li>
                 <li class="financing-about__item">
+                  <a href="https://www.ukrgasbank.com/eco/utilizaciya_vidhodiv" target="_blank">
                   <img src="./img/industry.png" alt="industry" />
                   <p class="financing-card__title">ПРОМИСЛОВІСТЬ</p>
                   <p class="financing-card__text">
                     Мінімізація шкідливих викидів
                   </p>
+                </a>
                 </li>
                 <li class="financing-about__item">
+                  <a href="https://www.ukrgasbank.com/zamov_consultation/" target="_blank">
                   <img src="./img/square.png" alt="square" />
                   <p class="financing-card__title">АПК та ТВАРИННИЦТВО</p>
                   <p class="financing-card__text">
                     Біопаливо, біогаз, утилізація відходів, системи зрошування
                   </p>
+                </a>
                 </li>
               </ul>
             </div>
@@ -284,7 +310,7 @@
       </div>
     </section>
 
-    <section class="billing">
+    <section id="billing" class="billing">
       <div class="container">
         <h2 class="billing-title title">Тарифікація викидів вуглецю</h2>
         <p class="billing-subtitle subtitle">(Carbon pricing)</p>
@@ -324,7 +350,7 @@
         </ul>
       </div>
     </section>
-    <section class="cooperation">
+    <section id="cooperation" class="cooperation">
       <div class="container">
         <h2 class="cooperation-title title">Співпраця з PFAN</h2>
         <p class="cooperation-subtitle subtitle">
@@ -350,7 +376,7 @@
               alt="green-car"
             />
           </div>
-          <form class="contact-form">
+          <form id="contacts" class="contact-form">
             <span class="title-form">Подати заявку</span>
             <br />
             <p>
@@ -435,5 +461,7 @@
     ></script>
     <script src="slick/slick.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/smooth-scroll.js"></script>
   </body>
 </html>

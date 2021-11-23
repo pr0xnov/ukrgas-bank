@@ -17,6 +17,9 @@ body {
 li {
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
 .container {
   margin-left: 150px;
   margin-right: 150px;
@@ -217,6 +220,9 @@ li {
   font-size: 19px;
   line-height: 31px;
 }
+.financing-card__text {
+  color: var(--text-dark-color);
+}
 #financing-1card--hidden,
 #financing-2card--hidden {
   position: absolute;
@@ -254,6 +260,10 @@ li {
 #financing-1card--hidden p:last-child,
 #financing-2card--hidden p:last-child {
   margin-bottom: 0;
+}
+#financing-1card--hidden a,
+#financing-2card--hidden a {
+  color: var(--text-white-color);
 }
 .financing-about__item {
   position: relative;
@@ -526,7 +536,7 @@ footer {
 
 .burger-menu_nav {
   position: fixed;
-  top: 75px;
+  top: 100px;
   z-index: 20;
   display: flex;
   flex-flow: column;
