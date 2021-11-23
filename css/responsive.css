@@ -282,6 +282,7 @@
   }
   .header-hero__text {
     font-size: 15px;
+    margin-left: 2px;
   }
   .title {
     font-size: 34px;

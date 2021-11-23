@@ -82,6 +82,7 @@ a {
 }
 .header-hero__text {
   font-size: 25px;
+  margin-left: 5px;
   width: 760px;
   line-height: 1.64;
 }
@@ -241,21 +242,43 @@ a {
   text-transform: uppercase;
   text-align: center;
   display: none;
+
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
   -o-transition: 0.4s;
 }
+.financing-card--hidden-item {
+  text-decoration: none;
+  background-image: linear-gradient(#fff, #fff);
+  background-position: 20% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s ease-in-out;
+}
+.financing-card--hidden-item:hover {
+  background-size: 100% 2px;
+}
+.financing-card--hidden-item:nth-child(2) {
+  margin: 0 auto;
+  width: 200px;
+}
 #financing-2card--hidden {
   padding: 100px 35px;
+}
+#financing-2card--hidden li:first-child {
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
 }
 .financing-about__item:hover #financing-1card--hidden,
 .financing-about__item:hover #financing-2card--hidden {
   display: block;
 }
-#financing-1card--hidden p {
+
+#financing-1card--hidden li {
   margin-bottom: 30px;
 }
-#financing-2card--hidden p {
+#financing-2card--hidden li {
   margin-bottom: 50px;
 }
 #financing-1card--hidden p:last-child,
@@ -265,6 +288,10 @@ a {
 #financing-1card--hidden a,
 #financing-2card--hidden a {
   color: var(--text-white-color);
+}
+#financing-1card--hidden a:hover,
+#financing-2card--hidden a:hover {
+  background-size: 100% 2px;
 }
 .financing-about__item {
   position: relative;
